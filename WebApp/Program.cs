@@ -20,6 +20,7 @@ serverInstance.MapGet("/", () =>
             height: 100vh;
             margin: 0;
             background-color: #ADD8E6;
+            color: red;
         }}
         .container {{
             text-align: center;
@@ -29,11 +30,11 @@ serverInstance.MapGet("/", () =>
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         }}
         h1 {{
-            color: #333;
+            color: red;
             margin-bottom: 20px;
         }}
         .timestamp {{
-            color: #666;
+            color: red;
             font-size: 18px;
         }}
     </style>
